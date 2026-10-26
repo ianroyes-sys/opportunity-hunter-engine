@@ -1,0 +1,68 @@
+{
+  "categories": {
+    "scholarships": {
+      "enabled": true,
+      "label": "Scholarships",
+      "keywords": [
+        "scholarship"
+      ]
+    },
+    "ambassadorships": {
+      "enabled": true,
+      "label": "Ambassadorships",
+      "keywords": [
+        "ambassador"
+      ]
+    },
+    "summits": {
+      "enabled": true,
+      "label": "Summits & conferences",
+      "keywords": [
+        "summit",
+        "conference",
+        "fly-in",
+        "fly in"
+      ]
+    },
+    "internships": {
+      "enabled": true,
+      "label": "Internships",
+      "keywords": [
+        "intern"
+      ]
+    },
+    "grants": {
+      "enabled": true,
+      "label": "Grants",
+      "keywords": [
+        "grant"
+      ]
+    },
+    "fellowships": {
+      "enabled": true,
+      "label": "Fellowships",
+      "keywords": [
+        "fellowship"
+      ]
+    },
+    "competitions": {
+      "enabled": true,
+      "label": "Competitions",
+      "keywords": [
+        "competition",
+        "accelerator",
+        "pitch"
+      ]
+    },
+    "fulltime": {
+      "enabled": true,
+      "label": "Full-time / new-grad",
+      "keywords": [
+        "full-time",
+        "full time",
+        "new-grad",
+        "analyst program"
+      ]
+    }
+  }
+}

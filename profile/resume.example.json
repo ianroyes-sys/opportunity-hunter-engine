@@ -1,0 +1,77 @@
+{
+  "_comment": "Fictional example. Copy to profile/resume.json (git-ignored) and replace with your own facts. Every bullet must be true.",
+  "name": "Jordan Example",
+  "fileStem": "Jordan_Example_Resume",
+  "contact": [
+    "Chicago, IL  ·  Open to relocation  ·  Available full-time June 2027",
+    "(555) 010-0199  ·  jordan@example.com  ·  linkedin.com/in/jordan-example  ·  github.com/jordan-example"
+  ],
+  "links": {
+    "jordan@example.com": "mailto:jordan@example.com",
+    "linkedin.com/in/jordan-example": "https://www.linkedin.com/in/jordan-example",
+    "github.com/jordan-example": "https://github.com/jordan-example"
+  },
+  "entries": {
+    "analyst": {
+      "head": ["Lakeshore Credit Union", "Jun 2026 – Aug 2026", "Finance Intern", "Chicago, IL"],
+      "bullets": {
+        "model": "Rebuilt the branch-level deposit forecast in Excel and Python, cutting monthly close prep from two days to half a day.",
+        "report": "Prepared weekly variance reports for the CFO covering 14 branches and flagged three reconciliation breaks.",
+        "sql": "Wrote SQL queries against the core banking warehouse to replace four manually maintained spreadsheets."
+      }
+    },
+    "club": {
+      "head": ["Campus Investment Club", "Sep 2024 – Present", "Treasurer", "Chicago, IL"],
+      "bullets": {
+        "fund": "Manage a $25,000 student-run portfolio; lead weekly pitch meetings and quarterly performance reporting.",
+        "recruit": "Grew membership from 18 to 52 students by redesigning the onboarding workshop series."
+      }
+    },
+    "project": {
+      "head": ["Budget Buddy — github.com/jordan-example/budget-buddy", "2026", "TypeScript · Next.js · Postgres", ""],
+      "bullets": {
+        "built": "Built a personal budgeting web app with bank-CSV import, category rules and a monthly spending dashboard.",
+        "tests": "Added 40 unit tests and a CI pipeline; 120 classmates used it during the spring semester."
+      }
+    }
+  },
+  "education": {
+    "head": ["State University", "2023 – 2027", "B.S. Finance, minor in Computer Science", "Chicago, IL"],
+    "note": "Expected graduation May 2027.",
+    "extra": "Leadership: Investment Club Treasurer  ·  Peer tutor, Intro to Accounting"
+  },
+  "skills": {
+    "tech": [
+      ["Languages", "Python, TypeScript, SQL"],
+      ["Tools", "Next.js, Postgres, Git, Excel"]
+    ],
+    "finance": [
+      ["Finance", "Forecasting, variance analysis, financial statement analysis, Excel"],
+      ["Data", "Python, SQL"]
+    ]
+  },
+  "variants": {
+    "tech": {
+      "headline": "Software  ·  Data  ·  Fintech",
+      "summary": "Finance student who builds software: shipped a budgeting app used by 120 classmates and automated reporting at a credit union.",
+      "sections": [
+        ["Experience", [["analyst", ["sql", "model"]], ["club", ["fund"]]]],
+        ["Projects", [["project", ["built", "tests"]]]],
+        ["Skills", "tech"],
+        ["Education", null]
+      ]
+    },
+    "business": {
+      "headline": "Finance  ·  FP&A  ·  Analytics",
+      "summary": "Finance student with credit-union FP&A experience and two years managing a student investment fund.",
+      "sections": [
+        ["Experience", [["analyst", ["model", "report", "sql"]], ["club", ["fund", "recruit"]]]],
+        ["Projects", [["project", ["built"]]]],
+        ["Skills", "finance"],
+        ["Education", null]
+      ]
+    }
+  },
+  "docxVariants": ["tech", "business"],
+  "defaultVariant": "business"
+}

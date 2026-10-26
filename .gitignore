@@ -1,0 +1,32 @@
+# Personal data never belongs in the repo
+profile/*
+!profile/*.example.*
+resumes/
+applications/
+evidence/
+screenshots/
+career-ledger/
+pipeline/*
+!pipeline/CATEGORIES.json
+!pipeline/USER-SKIPS.json
+!pipeline/tracker.md
+!pipeline/SUBMISSIONS.md
+!pipeline/HUNT-INBOX.md
+!pipeline/BLOCKED.md
+!pipeline/opportunities/
+pipeline/opportunities/*
+!pipeline/opportunities/example-*.md
+dashboard/index.html
+.runner/
+STOP
+
+# Tooling
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+!.env.example
+.playwright*/
+.DS_Store
+*.log
